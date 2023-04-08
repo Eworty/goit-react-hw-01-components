@@ -1,0 +1,33 @@
+.transaction__history {
+  margin-top: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  box-shadow: 0 0 10px #c6cccced;
+  width: 370px;
+  border-spacing: 0;
+}
+table th {
+  padding: 10px;
+  width: 103px;
+  font-weight: 800;
+  font-size: 20px;
+  background-color: #ffee00;
+  color: #000000;
+  border: solid 1px #c6cccce6;
+}
+
+table tr {
+  display: flex;
+  justify-content: space-around;
+}
+
+table td {
+  padding: 10px;
+  width: 103px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 15px;
+  color: #524a4d;
+  justify-content: center;
+  border: solid 1px #c6cccce6;
+}
