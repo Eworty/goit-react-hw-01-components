@@ -3,10 +3,10 @@ import { Profile } from './Profile/Profile';
 import { Statistics } from './Statistics/Statistics';
 import { TransactionHistory } from './TransactionHistory/TransactionHistory';
 
-import upcomingFriends from 'friends.json';
-import user from 'user.json';
-import data from 'data.json';
-import transactions from 'transactions.json';
+import upcomingFriends from '../data/friends.json';
+import user from '../data/user.json';
+import data from '../data/data.json';
+import transactions from '../data/transactions.json';
 
 export const App = () => {
   return (
@@ -18,7 +18,7 @@ export const App = () => {
         avatar={user.avatar}
         stats={user.stats}
       ></Profile>
-      <Statistics stats={data}></Statistics>
+      <Statistics title="Upload stats" stats={data}></Statistics>
       <FriendList friends={upcomingFriends} />
       <TransactionHistory transactions={transactions} />
     </>
